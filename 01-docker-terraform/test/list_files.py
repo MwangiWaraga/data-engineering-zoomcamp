@@ -16,3 +16,4 @@ for filepath in current_dir.iterdir():
         print(f"    Content: {content.strip()}")
     except UnicodeDecodeError:
         print("    [Skipped: not a UTF-readable text file]")
+    
