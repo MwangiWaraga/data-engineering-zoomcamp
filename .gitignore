@@ -1,5 +1,7 @@
 .env
 secrets/
+# Ignore .json files containing secrets or sensitive information
+*.json
 # Exclude parquet data files
 *.parquet
 
