@@ -1,3 +1,5 @@
+.env
+secrets/
 # Exclude parquet data files
 *.parquet
 
